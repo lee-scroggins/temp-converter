@@ -6,12 +6,10 @@ public class Converter {
 
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
-    System.out.print("Please type a Celsius temperature (blank to quit)");
+    System.out.print("Please type a Celsius temperature (blank to quit): ");
     String userInput = scanner.nextLine();
     while (!userInput.isEmpty()) {
-      System.out.print("Fahrenheit temperature: ");
-      System.out.println(convertC2F(Double.parseDouble(userInput)));
-      System.out.print("Please type a Celsius temperature (blank to quit)");
+      System.out.printf("Fahrenheit temperature: %,.2f degrees%nPlease type a Celsius temperature (blank to quit): ", convertC2F(Double.parseDouble(userInput)));
       userInput = scanner.nextLine();
     }
   }
