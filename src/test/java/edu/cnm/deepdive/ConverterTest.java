@@ -19,4 +19,8 @@ class ConverterTest {
      assertEquals(expectedFahrenheit, actualFahrenheiht, TOLERANCE);
    }
   }
+
+  @Test
+  void convertF2C() {
+  } //TODO Implement test for Fahrenheit-to-Celsius conversion.
 }
