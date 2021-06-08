@@ -28,7 +28,7 @@ public class Converter {
     return celsius * 9 / 5 + 32;
   }
 
-  public static double convertF2C(double farenheit) {
+  public static double convertF2C(double fahrenheit) {
     return 0; //TODO Implement the Fahrenheit-to-Celsius conversion formula.
   }
 }
