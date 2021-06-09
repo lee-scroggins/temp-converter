@@ -29,11 +29,15 @@ public class Converter {
     }
   }
 
-  public static double convertC2F(double celsius) { return celsius * 9 / 5 + 32;  }
+  public static double convertC2F(double celsius) {
+    return celsius * 9 / 5 + 32;
+  }
 
-  public static double convertF2C(double fahrenheit) { return (fahrenheit - 32) * 5 / 9; }
+  public static double convertF2C(double fahrenheit) {
+    return (fahrenheit - 32) * 5 / 9;
+  }
 
-    //TODO Implement the Fahrenheit-to-Celsius conversion formula.
+  //TODO Implement the Fahrenheit-to-Celsius conversion formula.
 
 }
 
